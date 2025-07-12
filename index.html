@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тест на патент</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <h1>Выберите вариант теста</h1>
+
+  <div id="test-buttons">
+    <button onclick="loadTest(1)">1</button>
+    <button onclick="loadTest(2)">2</button>
+    <button onclick="loadTest(3)">3</button>
+    <button onclick="loadTest(4)">4</button>
+    <button onclick="loadTest(5)">5</button>
+    <button onclick="loadTest(6)">6</button>
+    <button onclick="loadTest(7)">7</button>
+    <button onclick="loadTest(8)">8</button>
+    <button onclick="loadTest(9)">9</button>
+    <button onclick="loadTest(10)">10</button>
+    <button onclick="loadTest(11)">11</button>
+    <button onclick="generateMixedTest()">🎲</button>
+  </div>
+
+  <div id="test-container" class="noselect"></div>
+<div id="theme-results">
+    <div class="theme-block" id="theme-ru">Русский язык: <span>—</span></div>
+    <div class="theme-block" id="theme-history">История России: <span>—</span></div>
+    <div class="theme-block" id="theme-law">Основы законодательства РФ: <span>—</span></div>
+  </div>
+
+  <p id="result" style="font-weight: bold;"></p>
+
+  <div id="navigation-buttons" style="text-align:center; margin: 20px 0;"></div>
+  <div id="question-nav" style="text-align:center; margin-bottom: 40px;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
