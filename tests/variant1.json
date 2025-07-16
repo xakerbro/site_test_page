@@ -135,7 +135,7 @@
       "correct": 0
     },
     {
-      "text": "Укажите флаг Российской Федерации. \n 1) <img src='flags/1.png' alt='Флаг 1' width='100'> \n 2) <img src='flags/2.png' alt='Флаг 2' width='100'> \n 3) <img src='flags/3.png' alt='Флаг 3' width='100'>",
+      "text": "Укажите флаг Российской Федерации.",
       "options": [
         "1) <img src='flags/1_1.png' alt='Флаг 1' width='100'>",
         "2) <img src='flags/1_2.png' alt='Флаг 2' width='100'>",
